@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <script src="https://kit.fontawesome.com/524f54d6b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="translator">
+        <div class="text">
+            <textarea class="from" placeholder="translate..."></textarea>
+            <textarea class="to" disabled></textarea>
+        </div>
+        <div class="controls">
+            <div class="controls-from">
+                <i class="fa-solid fa-headphones"></i>
+                <i class="fa-solid fa-clipboard"></i>
+                <select></select>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left" id="change"></i>
+            <div class="controls-to">
+                <select></select>
+                <i class="fa-solid fa-headphones"></i>
+                <i class="fa-solid fa-clipboard"></i>
+            </div>
+        </div>
+        <button>Translate</button>
+    </div>
+    <script src="./countries.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
